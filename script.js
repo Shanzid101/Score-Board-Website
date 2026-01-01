@@ -1,5 +1,5 @@
 let isAdmin = false;
-const ADMIN_PASSWORD = "1234"; 
+const ADMIN_PASSWORD = "shanzid1010"; 
 
 document.addEventListener('DOMContentLoaded', displayData);
 
@@ -123,4 +123,5 @@ function deleteEntry(index) {
         localStorage.setItem('scoreboardData', JSON.stringify(students));
         displayData();
     }
+
 }
